@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Generate React Components
+
+Using `generate-react-cli` available from https://www.npmjs.com/package/generate-react-cli
+
 ## Available Scripts
 
 In the project directory, you can run:
