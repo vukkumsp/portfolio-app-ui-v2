@@ -5,7 +5,7 @@ import styles from './Home.module.css';
 import HomePageHeader from '../../layout/HomePageHeader/HomePageHeader';
 
 const Home = () => (
-  <div className={styles.Home} data-testid="Home">
+  <div className={styles.Home} data-testid="Home" id="home">
     <HomePageHeader></HomePageHeader>
 
     <div className='row'>
