@@ -6,6 +6,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Using `generate-react-cli` available from https://www.npmjs.com/package/generate-react-cli
 
+### Generate Default Component
+`npx generate-react-cli component Box`
+### Generate Page Component
+`npx generate-react-cli component HomePage --type=page`
+### Generate Layout Component
+`npx generate-react-cli component HomePage --type=layout`
+
 ## Available Scripts
 
 In the project directory, you can run:
