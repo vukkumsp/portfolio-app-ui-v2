@@ -4,7 +4,18 @@ import styles from './PrimarySkills.module.css';
 
 const PrimarySkills = () => (
   <div className={styles.PrimarySkills} data-testid="PrimarySkills">
-    PrimarySkills Component
+    <div className="container d-flex flex-wrap">
+      <ul className="nav me-auto">
+        <li className="nav-item">
+          <b>vsaiprakash.me</b>
+        </li>
+      </ul>
+      <ul className="nav">
+        <li className="nav-item">
+          asdf
+      </li>
+      </ul>
+    </div>
   </div>
 );
 

@@ -9,7 +9,6 @@ import SecondarySkills from './../../pages/SecondarySkills/SecondarySkills';
 
 const Body = () => (
   <div className={styles.Body} data-testid="Body">
-    Body Component
     <Home></Home>
     <PrimarySkills></PrimarySkills>
     <SecondarySkills></SecondarySkills>
