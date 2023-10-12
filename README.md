@@ -1,3 +1,6 @@
+# This Project available live at https://vukkumsp.github.io/portfolio-app-ui-v2/
+Deployment Steps followed from https://www.geeksforgeeks.org/deployment-of-react-application-using-github-pages/ 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
