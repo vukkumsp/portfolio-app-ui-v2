@@ -5,7 +5,7 @@ import styles from './WorkExperience.module.css';
 import PageHeader from '../../layout/PageHeader/PageHeader';
 
 const WorkExperience = () => (
-  <div className={styles.WorkExperience} data-testid="WorkExperience">
+  <div className={styles.WorkExperience} data-testid="WorkExperience" id="work-experience">
     <PageHeader></PageHeader>
     WorkExperience Component
   </div>

@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Lucida Console";
 }
 
 code {
@@ -17,8 +18,8 @@ code {
 }
 
 body{
-  --menubar: #61abff;
-  --menubar-dropdown: #7dbaff;
+  /* --menubar: #61abff;
+  --menubar-dropdown: #7dbaff; */
   --home: #61abff;
   --skills: #ffb5b5;
   --work-experience: bisque;
@@ -36,35 +37,40 @@ body{
   opacity: 1;
 }
 
-
-.navbar {
+/* Image URLs need to be full for github pages */
+ /* .navbar {
   background-color: var(--menubar);
-  /* Image URLs need to be full for github pages */
-  /* background-image: url("https://vukkumsp.github.io/portfolio-app-ui/assets/images/backgrounds/menubar-bg.svg");
+  
+  background-image: url("https://vukkumsp.github.io/portfolio-app-ui/assets/images/backgrounds/menubar-bg.svg");
   background-position: center;
+  color: black !important;
   background-repeat: no-repeat;
-  background-size: cover;  */
-}
+  background-size: cover; 
+}  */
 
-.dropdown-menu {
+/* .dropdown-menu {
   background-color: var(--menubar-dropdown);
-}
+} */
 
-.nav-link, .dropdown-item {
+/* .nav-link, .dropdown-item {
   color:#F0F8FF !important;
-}
+} */
 
-.dropdown-item.disabled {
+/* .dropdown-item.disabled {
   color:#a3ccf0 !important;
-}
+} */
 
-.nav-link:hover, .navbar-brand:hover, .dropdown-item:hover {
+/* .nav-link:hover, .navbar-brand:hover, .dropdown-item:hover {
   color:#b3dbff !important;
   background-color: var(--menubar);
-}
+} */
 
 /* .contact-me-button:hover{
   color: var(--contact-me) !important;
+}
+
+.work-experience-button:hover{
+  color: var(--work-experience) !important;
 }
 
 .personal-projects-button:hover{

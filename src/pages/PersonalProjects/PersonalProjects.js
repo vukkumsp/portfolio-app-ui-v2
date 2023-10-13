@@ -5,7 +5,7 @@ import styles from './PersonalProjects.module.css';
 import PageHeader from '../../layout/PageHeader/PageHeader';
 
 const PersonalProjects = () => (
-  <div className={styles.PersonalProjects} data-testid="PersonalProjects">
+  <div className={styles.PersonalProjects} data-testid="PersonalProjects" id="personal-projects">
     <PageHeader></PageHeader>
     PersonalProjects Component
   </div>

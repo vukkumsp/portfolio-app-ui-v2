@@ -6,7 +6,7 @@ import PageHeader from '../../layout/PageHeader/PageHeader';
 
 const SecondarySkills = () => (
   <div className={styles.SecondarySkills} data-testid="SecondarySkills">
-    <PageHeader></PageHeader>
+    {/* <PageHeader></PageHeader> */}
     SecondarySkills Component
   </div>
 );

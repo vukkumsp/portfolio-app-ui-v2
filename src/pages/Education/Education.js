@@ -5,7 +5,7 @@ import styles from './Education.module.css';
 import PageHeader from '../../layout/PageHeader/PageHeader';
 
 const Education = () => (
-  <div className={styles.Education} data-testid="Education">
+  <div className={styles.Education} data-testid="Education" id="education">
     <PageHeader></PageHeader>
     Education Component
   </div>

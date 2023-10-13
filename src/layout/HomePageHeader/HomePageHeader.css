@@ -1,0 +1,21 @@
+.navbar-brand,
+.navbar-light,
+.nav-link,
+.dropdown-item {
+    color: grey;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.navbar-brand:hover,
+.navbar-light:hover,
+.nav-link:hover,
+.dropdown-item:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.nav-link {
+    font-size: medium;
+}

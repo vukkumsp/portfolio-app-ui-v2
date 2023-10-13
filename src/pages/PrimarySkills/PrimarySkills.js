@@ -5,7 +5,7 @@ import styles from './PrimarySkills.module.css';
 import PageHeader from '../../layout/PageHeader/PageHeader';
 
 const PrimarySkills = () => (
-  <div className={styles.PrimarySkills} data-testid="PrimarySkills">
+  <div className={styles.PrimarySkills} data-testid="PrimarySkills" id="skills">
     <PageHeader></PageHeader>
     Primary Skills
   </div>
