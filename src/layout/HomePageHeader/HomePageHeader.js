@@ -26,7 +26,7 @@ const HomePageHeader = () => (
                 <a className="nav-link clickable education-button" href="#education">Education</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link clickable contact-me-button" href="#home">Contact Me</a>
+                <a className="nav-link clickable contact-me-button" href="#contact-us">Contact Me</a>
             </li>
 
         </ul>

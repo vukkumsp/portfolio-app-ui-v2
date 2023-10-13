@@ -9,6 +9,7 @@ import SecondarySkills from './../../pages/SecondarySkills/SecondarySkills';
 import WorkExperience from './../../pages/WorkExperience/WorkExperience';
 import PersonalProjects from './../../pages/PersonalProjects/PersonalProjects';
 import Education from './../../pages/Education/Education';
+import ContactUs from '../../pages/ContactUs/ContactUs';
 
 const Body = () => (
   <div className={styles.Body} data-testid="Body">
@@ -18,6 +19,7 @@ const Body = () => (
     <WorkExperience></WorkExperience>
     <PersonalProjects></PersonalProjects>
     <Education></Education>
+    <ContactUs></ContactUs>
   </div>
 );
 
