@@ -1,14 +1,14 @@
 import './App.css';
-// Layout Components
-import Header from './layout/Header/Header';
-import Body from './layout/Body/Body';
-import Footer from './layout/Footer/Footer';
+import Header from './Components/Header';
+import Profile from './Components/Profile';
+import RightSection from './Components/RightSection';
 
 function App() {
   return (
-    <div className="App">
-      <Body></Body>
-      <Footer></Footer>
+    <div className="container">
+      <Header className="header-section"/>
+      <Profile className="profile-section"/>
+      <RightSection className="right-section"/>
     </div>
   );
 }
