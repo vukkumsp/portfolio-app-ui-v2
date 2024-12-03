@@ -1,11 +1,24 @@
 .heading {
     font-size: 20px;
+    color:antiquewhite;
+}
+
+.location{
+    font-size: 15px;
+    text-align: end;
+    padding-right: 10px;
 }
 
 .prefix{
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.name {
+    color: rgb(255, 122, 85);
 }
 
 .job-role {
     font-size: 100px;
+    color:rgb(146, 179, 255)
 }

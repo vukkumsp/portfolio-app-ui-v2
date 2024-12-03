@@ -1,4 +1,5 @@
 .home {
     display: flex;
     cursor:default;
+    background-color: var(--themedark);
 }

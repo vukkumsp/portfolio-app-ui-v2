@@ -1,6 +1,6 @@
 :root {
-    --themedark: rgb(81, 74, 161);
-    --themelight: white;
+    --themedark: rgb(24, 24, 56);
+    --themelight: rgb(146, 179, 255);
 }
 
 body {
