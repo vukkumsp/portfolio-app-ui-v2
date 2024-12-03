@@ -1,0 +1,9 @@
+.left-column{
+    width: 50vw;
+    height: 100vh;
+    background-image: url('./../../../public/assets/pexels-italo-melo-881954-2379004.jpg');
+    /* background-size: cover; */
+    background-size:100%;
+    background-repeat: no-repeat;
+    transform: scaleX(-1); /*flip image*/
+}

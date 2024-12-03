@@ -1,0 +1,21 @@
+.skill-card{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.skill-card:hover{
+    background-color: rgb(216, 237, 254);
+}
+
+.skill-logo{
+    height: 50px;
+    width: 62.5px;
+}
+
+.skill-name{
+    font-size: 12px;
+}

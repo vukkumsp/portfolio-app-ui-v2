@@ -1,0 +1,98 @@
+:root{
+  --themedark: rgb(81, 74, 161);
+  --themelight: white;
+}
+
+body {
+  font-family: 'Poppins', serif;
+  font-size: smaller;
+  background-color: var(--themedark);
+}
+
+fieldset, header {
+  border: none;
+  /* padding-block: 100px; */
+  /* border-style: double; */
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: var(--themelight);
+}
+
+fieldset legend {
+  border: 1px solid;
+  border-radius: 2px;
+  /* content: none; */
+  /* visibility: hidden; */
+  background-color:var(--themelight);
+  /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+  box-shadow: 0px 1px 2px 0px gray;
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: 2; */
+  /* grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto; */
+}
+/*  */
+.header-section {
+  grid-column: span 5;
+}
+
+.profile-section {
+  grid-column: span 1;
+  
+}
+
+.profile-section > .profile-skills > div,
+.profile-section > .contact-me > form,
+.right-section > .work-experience > div,
+.right-section > .personal-projects > div
+{
+  font-size: smaller;
+}
+
+.languages, .frameworks-libraries, 
+  .databases, .software-archs, .testing-tools, .api-techniques, .dev-tools {
+  margin-left: 10px;
+}
+
+/* .profile-section fieldset{
+  min-height: 75vh;
+} */
+
+.right-section {
+  grid-column: span 4;
+}
+
+/* .right-section fieldset{
+  min-height: 75vh;
+} */
+
+.candidate-name {
+  font-weight: 700;
+  font-size:x-large;
+  padding: 0px 5px;
+}
+
+.candidate-details {
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+  padding: 0px 5px;
+}
+
+.contact-me-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-me-form > input, textarea {
+  font-family: inherit;
+  /* some input elements have their own font styles */
+}
+
+.contact-me-submit-btn{
+  margin-top: 20px;
+  cursor: pointer;
+}

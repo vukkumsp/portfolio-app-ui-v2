@@ -1,15 +1,16 @@
 import './App.css';
-import Header from './Components/Header';
-import Profile from './Components/Profile';
-import RightSection from './Components/RightSection';
+import Home from './layout/Home/Home.jsx';
 
 function App() {
   return (
-    <div className="container">
-      <Header className="header-section"/>
-      <Profile className="profile-section"/>
-      <RightSection className="right-section"/>
+    <div>
+      <Home />
     </div>
+    // <div className="container">
+    //   <Header className="header-section"/>
+    //   <Profile className="profile-section"/>
+    //   <RightSection className="right-section"/>
+    // </div>
   );
 }
 
