@@ -17,6 +17,10 @@
         color: var(--themelight);
         font: inherit;
     }
+
+    a:hover{
+        color: var(--themedark);
+    }
 }
 
 .custom-btn:hover{

@@ -10,7 +10,7 @@ function CustomButton({value,
         // "sample.pdf"
         return (
             <button className='custom-btn'>
-            <a  role="button"
+            <a role="button"
                 href= {href}
                 download= {fileName}
                 target="_blank" 
