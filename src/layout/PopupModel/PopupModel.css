@@ -29,12 +29,13 @@
         color: var(--themelight-warning);
         background-color: rgba(252, 252, 252, 0);
         border-color: rgba(252, 252, 252, 0);
+        filter: hue-rotate(213deg);
         /* background-color: var(--themedark-warning);         */
     }
 
     button:hover {
         color: var(--themedark-warning);
-        filter: hue-rotate(213deg);
+        filter: hue-rotate(0deg);
         /* filter: invert(50%);  */
         background-color: rgba(252, 252, 252, 0);
         border-color: rgba(252, 252, 252, 0);
