@@ -8,6 +8,7 @@ function SkillCardsHolder() {
             <SkillCard title="Angular" logoPath="./assets/icons/angular.png" />
             <SkillCard title="React" logoPath="./assets/icons/react.png" />
             <SkillCard title="Java 11" logoPath="./assets/icons/java.png" />
+            <SkillCard title="Spring" logoPath="./assets/icons/spring.png" />
         </div>
     );
 }

@@ -1,21 +1,26 @@
 .skill-card{
-    text-align: center;
-    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    vertical-align:middle;
+    border: 1px solid var(--themedarker-btn);
     border-radius: 5px;
     margin: 5px;
-    padding: 10px;
-    background-color: var(--skillcard);
+    padding: 5px;
+    background-color: var(--themedarker-btn);
+    color: var(--themelight);
 }
 
-.skill-card:hover{
+/* .skill-card:hover{
     background-color: var(--skillcard-hover);
-}
+    color: var(--themedarker-btn);
+} */
 
 .skill-logo{
     /* height: 50px; */
-    height: 6.5vw;
+    height: 1.625vw;
     /* width: 62.5px; */
-    width: 7.2vw;
+    width: 1.8vw;
+    padding-right: 0.5vw;
 }
 
 .skill-name{
