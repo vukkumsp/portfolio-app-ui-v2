@@ -1,10 +1,12 @@
 import './App.css';
 import Home from './layout/Home/Home.jsx';
+import PersonalProjects from './layout/PersonalProjects/PersonalProjects.jsx';
 
 function App() {
   return (
     <div>
       <Home />
+      <PersonalProjects />
     </div>
     // <div className="container">
     //   <Header className="header-section"/>

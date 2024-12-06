@@ -13,7 +13,7 @@ export default function PopupModel({
   
     return (
       <div>
-        <button className='custom-btn' onClick={openModal}>{value}</button>
+        <button className='custom-btn btn' onClick={openModal}>{value}</button>
   
         {isOpen && (
           <div className="modal-overlay">

@@ -9,7 +9,7 @@ function CustomButton({value,
         // "/files/sample.pdf"
         // "sample.pdf"
         return (
-            <button className='custom-btn'>
+            <button className='custom-btn btn'>
             <a role="button"
                 href= {href}
                 download= {fileName}
@@ -25,7 +25,7 @@ function CustomButton({value,
     }
 
     return (
-        <button className='custom-btn' role="button">
+        <button className='custom-btn btn' role="button">
             {value}
         </button>
     );

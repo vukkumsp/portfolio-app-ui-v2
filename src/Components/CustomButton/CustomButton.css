@@ -18,9 +18,7 @@
         font: inherit;
     }
 
-    a:hover{
-        color: var(--themedark);
-    }
+
 }
 
 .custom-btn:hover{
@@ -28,4 +26,11 @@
     background-color: var(--themelight);
     /* color: black; */
     color: var(--themedarker-btn);
+    a {
+        color: var(--themedarker-btn);
+    }
+}
+
+.btn{
+    border: 1px solid var(--themelight);
 }
