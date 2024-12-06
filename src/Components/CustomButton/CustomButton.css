@@ -12,6 +12,11 @@
     margin: 5px;
     width:fit-content;
     text-decoration: none;
+    a {
+        text-decoration: none;
+        color: var(--themelight);
+        font: inherit;
+    }
 }
 
 .custom-btn:hover{

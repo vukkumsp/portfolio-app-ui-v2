@@ -1,0 +1,8 @@
+.contact-me-form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    font-family: var(--font-theme) !important;
+}

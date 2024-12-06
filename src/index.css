@@ -1,15 +1,18 @@
 :root {
     --transparent: rgba(255, 255, 255, 0);
     --font-color: antiquewhite;
+    --font-theme: 'Poppins', serif;
     --themedark: rgb(24, 24, 56);
     --themedarker-btn: rgb(0, 0, 48);
     --themelight: rgb(146, 179, 255);
     --skillcard: rgb(209, 223, 255);
     --skillcard-hover: rgb(146, 179, 255);
+    --themedark-warning: rgb(228, 107, 107);
+    --themelight-warning: rgb(255, 199, 199);
 }
 
 body {
-    font-family: 'Poppins', serif;
+    font-family: var(--font-theme);
     font-size: smaller;
     margin: 0px;
     /* background-color: var(--themedark); */

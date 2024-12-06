@@ -1,0 +1,61 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: var(--themedark);
+    color: var(--themelight);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: left;
+  }
+  
+ .model-button-holder {
+    display: flex;
+    flex-direction: row-reverse;
+    button {
+        color: var(--themelight-warning);
+        background-color: rgba(252, 252, 252, 0);
+        border-color: rgba(252, 252, 252, 0);
+        /* background-color: var(--themedark-warning);         */
+    }
+
+    button:hover {
+        color: var(--themedark-warning);
+        filter: hue-rotate(213deg);
+        /* filter: invert(50%);  */
+        background-color: rgba(252, 252, 252, 0);
+        border-color: rgba(252, 252, 252, 0);
+        /* background-color: var(--themelight-warning); */
+    }
+
+ }
+
+ button {
+    font-family: var(--font-theme);
+ }
+
+  /* button {
+    font-family: var(--font-theme);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #ddd;
+  } */
+  
