@@ -1,8 +1,11 @@
 .custom-btn {
-    background-color: black;
-    color: white;
+    /* background-color: black; */
+    background-color: var(--themedarker-btn);
+    /* color: white; */
+    color: var(--themelight);
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border: 1px solid var(--themedarker-btn);
     border-radius: 5px;
     cursor: pointer;
     padding: 10px;
@@ -11,6 +14,8 @@
 }
 
 .custom-btn:hover{
-    background-color: white;
-    color: black;
+    /* background-color: white; */
+    background-color: var(--themelight);
+    /* color: black; */
+    color: var(--themedarker-btn);
 }
