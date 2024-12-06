@@ -1,6 +1,12 @@
 :root {
+    --transparent: rgba(255, 255, 255, 0);
+    --font-color: antiquewhite;
+    --themedark-1: rgb(29, 29, 53);
     --themedark: rgb(24, 24, 56);
+    --themedark-2: rgb(0, 0, 48);
     --themelight: rgb(146, 179, 255);
+    --skillcard: rgb(209, 223, 255);
+    --skillcard-hover: rgb(146, 179, 255);
 }
 
 body {

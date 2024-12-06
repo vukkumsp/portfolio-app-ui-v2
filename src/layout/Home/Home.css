@@ -2,4 +2,26 @@
     display: flex;
     cursor:default;
     background-color: var(--themedark);
+
+    /* linear-gradient(to right, white, black) */
+    /* background-image: 
+        linear-gradient(to right, var(--transparent), var(--themedark)),
+        url('./../../../public/assets/pexels-italo-melo-881954-2379004.jpg');
+        background-size: auto 100%;
+        background-position: left center;
+    background-repeat: no-repeat; */
+}
+
+.left-col-ele{
+    
+    background-image: 
+        /* linear-gradient(to right, white, black) */
+        linear-gradient(to right, var(--transparent), var(--themedark)),
+        url('./../../../public/assets/pexels-italo-melo-881954-2379004.jpg');
+        background-size: auto 100%;
+        background-position: left center;
+        /* background-position: ; */
+    /* background-size: 60% 800px, auto 800px; */
+    background-repeat: no-repeat;
+    /* background-position: left center, center center; */
 }

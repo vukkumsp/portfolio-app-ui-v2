@@ -1,11 +1,22 @@
 .heading {
-    font-size: 20px;
-    color:antiquewhite;
+    /* font-size: 20px; */
+    font-size: 2vw;
+    color: var(--font-color);
 }
 
 .location{
+    a {
+        font-weight:lighter;
+        text-decoration: none;
+        color: var(--font-color);
+    }
+
+    a:hover{
+        font-weight:normal;
+    }
+    
     font-size: 15px;
-    text-align: end;
+    text-align: start;
     padding-right: 10px;
 }
 
@@ -19,6 +30,7 @@
 }
 
 .job-role {
-    font-size: 100px;
+    /* font-size: 100px; */
+    font-size: 9vw;
     color:rgb(146, 179, 255)
 }

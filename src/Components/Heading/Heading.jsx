@@ -19,7 +19,7 @@ function Heading() {
     return (
     <div className='heading'>
         <p className='location'>
-            📍India
+            <a href="https://maps.app.goo.gl/VKBytf8V1HwqxLGa9">📍Hyderabad, India</a>
         </p>
         <div className='prefix'>
             I am <span className='name'>Sai Prakash</span>,
