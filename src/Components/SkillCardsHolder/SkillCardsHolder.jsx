@@ -1,11 +1,29 @@
 import SkillCard from '../SkillCard/SkillCard';
 import './SkillCardsHolder.css';
 
+/* 
+    logoPathDir="./assets/icons/"
+    skills = [
+    {
+        value: "Javascript",
+        iconFile: "javascript.png"
+    }
+]
+*/
+function SkillCardsHolder({skills}) {
+    const logoPathDir="./assets/icons/";
+    const skillsArray = [];
 
-function SkillCardsHolder() {
+    for (let i = 0; i < skills.length; i++) {
+        skillsArray.push(
+            <SkillCard title={skills[i].value} logoPath={logoPathDir+skills[i].iconFile} />
+        );
+    }
+
     return (
         <div className='skill-cards'>
-            <SkillCard title="Javascript" logoPath="./assets/icons/javascript.png" />
+            {skillsArray}
+            {/* <SkillCard title="Javascript" logoPath="./assets/icons/javascript.png" />
             <SkillCard title="Angular" logoPath="./assets/icons/angular.png" />
             <SkillCard title="React" logoPath="./assets/icons/react.png" />
             <SkillCard title="Java 11" logoPath="./assets/icons/java.png" />
@@ -13,7 +31,7 @@ function SkillCardsHolder() {
             <SkillCard title="NodeJs" logoPath="./assets/icons/nodejs.png" />
             <SkillCard title="Docker" logoPath="./assets/icons/docker.png" />
             <SkillCard title="AWS" logoPath="./assets/icons/aws.png" />
-            <SkillCard title="Solidity" logoPath="./assets/icons/solidity.png" />
+            <SkillCard title="Solidity" logoPath="./assets/icons/solidity.png" /> */}
         </div>
     );
 }

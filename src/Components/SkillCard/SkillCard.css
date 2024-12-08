@@ -24,5 +24,19 @@
 }
 
 .skill-name{
-    font-size: 12px;
+    font-size: 1.5vw;
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 768px){
+    .skill-name{
+        font-size: 10px;
+    }
+    .skill-logo{
+        height: 12.5px;
+        /* height: 1.625vw; */
+        width: 12.5px;
+        /* width: 1.7vw; */
+        padding-right: 0.5vw;
+    }
 }

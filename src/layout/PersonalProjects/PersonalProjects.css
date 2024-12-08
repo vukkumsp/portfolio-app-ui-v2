@@ -1,4 +1,12 @@
-.personal-projects{
+.personal-projects-container{
     background-color: var(--themedark);
     height: 100vh;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--themelight);
+    
 }

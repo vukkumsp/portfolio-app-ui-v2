@@ -11,14 +11,14 @@
     padding: 10px;
     margin: 5px;
     width:fit-content;
-    text-decoration: none;
-    a {
+    text-decoration: none; /* Remove anchor decorations */
+    text-align: center;
+    /* a {
         text-decoration: none;
         color: var(--themelight);
         font: inherit;
-    }
-
-
+        text-align: center;
+    } */
 }
 
 .custom-btn:hover{
@@ -26,11 +26,38 @@
     background-color: var(--themelight);
     /* color: black; */
     color: var(--themedarker-btn);
-    a {
+    /* a {
         color: var(--themedarker-btn);
-    }
+    } */
 }
 
 .btn{
     border: 1px solid var(--themelight);
 }
+
+.icon-element{
+    vertical-align: middle;
+    padding-bottom: 0.4vw;
+    padding-right: 1vw;
+}
+
+.emoji-element{
+    padding-right: 1vw;
+}
+
+@keyframes blink-animation {
+    0%, 50% {
+      color: red;
+    }
+    51%, 100% {
+      color: white;
+    }
+  }
+
+.recording-animation{
+    text-align: center;
+    animation: blink-animation 1s infinite;
+}
+
+
+

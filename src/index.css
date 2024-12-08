@@ -15,10 +15,22 @@ body {
     font-family: var(--font-theme);
     font-size: smaller;
     margin: 0px;
-    /* background-color: var(--themedark); */
+    background-color: var(--themedark);
+    cursor:default;
+
+    padding-left: 9vw;
+    padding-right: 9vw;
+
     /* background-image: url('./../public/assets/pexels-italo-melo-881954-2379004.jpg');
     background-size: cover;
     background-size:40%;
     background-repeat: no-repeat; */
     /* background-size: contain; */
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 768px){
+    body {
+        padding: 0%;
+    }
 }
