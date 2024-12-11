@@ -1,12 +1,26 @@
 .personal-projects-container{
-    background-color: var(--themedark);
+    /* background-color: var(--themedark); */
     height: 100vh;
     text-align: center;
 }
 
+.projects-title{
+    padding-top: 1vh;
+    font-size:large;
+    color: var(--font-color);
+}
+
 .projects {
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-flex;
     color: var(--themelight);
-    
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 474px){
+    .projects {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 }

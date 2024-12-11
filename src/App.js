@@ -4,9 +4,11 @@ import PersonalProjects from './layout/PersonalProjects/PersonalProjects.jsx';
 
 function App() {
   return (
-    <div>
-      <Home />
-      <PersonalProjects />
+    <div className='background'>
+      <div className='page-container'>
+        <Home />
+        <PersonalProjects />
+      </div>
     </div>
     // <div className="container">
     //   <Header className="header-section"/>

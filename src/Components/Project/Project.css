@@ -1,24 +1,69 @@
 .project-container{
-    display: flex;
-    flex-direction: column;
     border: 1px solid var(--themelight);
     border-radius: 10px;
     margin: 7px;
-    width: 300px;
-    height: 150px;
-
+    /* width: 300px;
+    height: 150px; */
+    height: 35vw;
+    width: 40vw;
+    text-align: center;
+    /* background-color: var(--themedarker-btn); */
 }
 
 .project-title, .project-screenshot{
     padding:5px;
 }
 
+.project-screenshot{
+    
+    height: 20vw;
+    width: 35vw;
+}
+
 .project-skills{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 1000vw;
 }
 
 .project-buttons-container{
     padding: 5px;
+}
+
+/* Mobile Screen */
+@media screen and (min-width: 970px) and (max-width: 768px){
+    .project-container{
+        height: 40vw;
+        width: 40vw;
+    }
+}
+@media screen and (max-width: 768px){
+    .project-container{
+        border: 1px solid var(--themelight);
+        border-radius: 10px;
+        margin: 7px;
+        /* width: 300px;
+        height: 150px; */
+        height: 40vw;
+        width: 40vw;
+        text-align: center;
+    }
+    .project-screenshot{
+        height: 20vw;
+        width: 35vw;
+    }
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 474px){
+    .project-container{
+        height: 75vw;
+        width: 90vw;
+        text-align: center;
+    }
+    .project-screenshot{
+        height: 34vw;
+        width: 55vw;
+    }
 }

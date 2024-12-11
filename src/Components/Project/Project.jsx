@@ -14,16 +14,6 @@ function Project({
         link: githubLink,
         icon: './assets/icons/github.svg'
     }
-    const allSkills = [
-        { value: "Javascript", iconFile: "javascript.png" },
-        { value: "Angular", iconFile: "angular.png" },
-        { value: "React", iconFile: "react.png" },
-        { value: "Java 11", iconFile: "java.png" },
-        { value: "Spring", iconFile: "spring.png" },
-        { value: "NodeJs", iconFile: "nodejs.png" },
-        { value: "Docker", iconFile: "docker.png" },
-        { value: "Solidity", iconFile: "solidity.png" },
-    ];
     return (
         <div className='project-container'>
             <div className='project-title'>{title}</div>

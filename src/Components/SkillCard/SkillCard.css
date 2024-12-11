@@ -16,15 +16,16 @@
 } */
 
 .skill-logo{
-    /* height: 50px; */
-    height: 1.625vw;
-    /* width: 62.5px; */
-    width: 1.7vw;
+    height: 15px;
+    /* height: 1.625vw; */
+    width: 17px;
+    /* width: 1.7vw; */
     padding-right: 0.5vw;
 }
 
 .skill-name{
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
+    font-size: 12px;
 }
 
 /* Mobile Screen */

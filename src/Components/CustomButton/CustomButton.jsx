@@ -5,6 +5,7 @@ function CustomButton({value, type='default', config={},
         downloader='false', href='/',fileName='#',
         popup='false', title='Default Title', description='Default Description'
         }){
+    console.log(config);
     switch(type){
         case 'downloader':
             return (
