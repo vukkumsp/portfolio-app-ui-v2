@@ -1,4 +1,4 @@
-import CustomButton from '../CustomButton/CustomButton';
+import CustomButton from '../CustomButton/CustomButton.jsx';
 import './ButtonsHolder1.css';
 
 function ButtonsHolder1() {

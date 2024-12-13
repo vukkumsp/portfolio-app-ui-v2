@@ -1,8 +1,8 @@
 import { useState } from "react";
 import './PopupModel.css';
-import CustomButton from './../../components/CustomButton/CustomButton';
+import CustomButton from './../../components/CustomButton/CustomButton.jsx';
 import './../../components/CustomButton/CustomButton.css'
-import ContactMeForm from "../../components/ContactMeForm/ContactMeForm";
+import ContactMeForm from "../../components/ContactMeForm/ContactMeForm.jsx";
 
 export default function PopupModel({
     value, title, description, contactForm='false'

@@ -1,6 +1,6 @@
-import ButtonsHolder1 from '../../components/ButtonsHolder1/ButtonsHolder1';
-import Heading from '../../components/Heading/Heading';
-import SkillCardsHolder from '../../components/SkillCardsHolder/SkillCardsHolder';
+import ButtonsHolder1 from '../../components/ButtonsHolder1/ButtonsHolder1.jsx';
+import Heading from '../../components/Heading/Heading.jsx';
+import SkillCardsHolder from '../../components/SkillCardsHolder/SkillCardsHolder.jsx';
 import './RightColumn.css';
 
 function RightColumn() {

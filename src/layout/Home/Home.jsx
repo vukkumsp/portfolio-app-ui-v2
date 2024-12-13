@@ -1,5 +1,5 @@
-import LeftColumn from "../LeftColumn/LeftColumn";
-import RightColumn from "../RightColumn/RightColumn";
+import LeftColumn from "../LeftColumn/LeftColumn.jsx";
+import RightColumn from "../RightColumn/RightColumn.jsx";
 
 import './Home.css';
 

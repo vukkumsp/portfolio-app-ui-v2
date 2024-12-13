@@ -1,5 +1,5 @@
-import CustomButton from '../CustomButton/CustomButton';
-import SkillCardsHolder from '../SkillCardsHolder/SkillCardsHolder';
+import CustomButton from '../CustomButton/CustomButton.jsx';
+import SkillCardsHolder from '../SkillCardsHolder/SkillCardsHolder.jsx';
 import './Project.css';
 
 function Project({

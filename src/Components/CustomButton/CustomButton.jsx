@@ -1,4 +1,4 @@
-import PopupModel from '../../layout/PopupModel/PopupModel';
+import PopupModel from '../../layout/PopupModel/PopupModel.jsx';
 import './CustomButton.css';
 
 function CustomButton({value, type='default', config={},
