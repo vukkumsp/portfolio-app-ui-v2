@@ -24,3 +24,11 @@
         flex-wrap: wrap;
     }
 }
+
+.divider-band{
+    background-color: var(--themelight);
+    color: var(--themelight);
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-radius: 10px;
+}

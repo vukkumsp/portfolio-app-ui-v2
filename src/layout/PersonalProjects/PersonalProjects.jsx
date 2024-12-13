@@ -1,4 +1,3 @@
-import DividerBand from '../../components/DividerBand/DividerBand.jsx';
 import Project from '../../components/Project/Project.jsx';
 import './PersonalProjects.css';
 
@@ -15,7 +14,9 @@ function PersonalProjects() {
     ]
     return (
         <div className="personal-projects-container">
-            <DividerBand />
+            <div className='divider-band'>
+            -
+            </div>
             <div className='projects-title'>
                 Personal Projects
             </div>
