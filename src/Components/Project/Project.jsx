@@ -1,5 +1,4 @@
 import CustomButton from '../CustomButton/CustomButton';
-import SkillCard from '../SkillCard/SkillCard';
 import SkillCardsHolder from '../SkillCardsHolder/SkillCardsHolder';
 import './Project.css';
 
