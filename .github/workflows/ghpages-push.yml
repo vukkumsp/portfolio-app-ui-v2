@@ -11,6 +11,13 @@ jobs:
       - run: echo "Started NPM Build Job"
       - name: Check out repository code
         uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.15.0 # Replace with your desired Node.js version
+          cache: 'npm'
+      - name: Install specific npm version
+        run: npm install -g npm@10.7.0 # Replace with the desired npm version
       - name: Checking NodeJs & NPM Versions
         run: |
           echo "Node Version check"
