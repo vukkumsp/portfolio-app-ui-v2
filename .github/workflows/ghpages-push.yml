@@ -23,9 +23,9 @@ jobs:
           npm ci
       - name: Build for prod
         run: |
-          npm run predeploy
-          - name: Set up Git for deployment
-          run: |
+          npm run build
+      - name: Set up Git for deployment
+        run: |
             git config user.name "GitHub Actions"
             git config user.email "actions@github.com"
       - name: Deploy to Github Pages
