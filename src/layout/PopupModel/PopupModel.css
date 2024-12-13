@@ -48,6 +48,23 @@
     font-family: var(--font-theme);
  }
 
+ .or-divider{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .or-divider-text{
+  margin: 0.5vw;
+ }
+
+ .or-divider-line{
+  flex: 1;
+  border: none;
+  border-top: 1px solid var(--font-color);
+  /* margin: 0; */
+ }
+
   /* button {
     font-family: var(--font-theme);
     padding: 10px 20px;

@@ -6,7 +6,7 @@
     background: 
         /* url('./../../../public/assets/pexels-italo-melo-881954-2379004.jpg')  no-repeat center/cover, */
         /* linear-gradient(to top,  rgba(18, 90, 214, 0.361) 25%,  rgba(0, 0, 0, 0)), */
-        url('./../../../public/data/profile-removebg.png')  no-repeat center/cover;
+        url('./../../../public/data/profile2-removed-bg.png')  no-repeat center/cover;
     background-blend-mode: multiply; /* Blend the gradient with the image */
 
       /* Apply gradient transparency */

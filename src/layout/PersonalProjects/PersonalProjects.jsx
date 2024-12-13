@@ -32,6 +32,7 @@ function PersonalProjects() {
                     imgUrl='https://user-images.githubusercontent.com/9028439/190990778-a27803b5-31e9-45ab-bae5-69f1f8167155.png'
                     skills={lesSkills}
                     liveLink='#'
+                    disabled='true'
                     githubLink='https://github.com/vukkumsp/local-entertainment-system'
                      />
             </div>

@@ -35,6 +35,17 @@
     border: 1px solid var(--themelight);
 }
 
+.disabled-btn{
+    cursor:not-allowed;
+    background-color: var(--themedark);
+    color: var(--themelight);
+}
+
+.disabled-btn:hover{
+    background-color: var(--themedark);
+    color: var(--themelight);
+}
+
 .icon-element{
     vertical-align: middle;
     padding-bottom: 0.4vw;

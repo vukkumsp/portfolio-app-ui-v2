@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './PopupModel.css';
+import CustomButton from './../../components/CustomButton/CustomButton';
 import './../../components/CustomButton/CustomButton.css'
 import ContactMeForm from "../../components/ContactMeForm/ContactMeForm";
 
@@ -10,6 +11,12 @@ export default function PopupModel({
 
     const openModal = () => setIsOpen(true);
     const closeModal = () => setIsOpen(false);
+
+    const linkedInConfig = {
+      href: 'https://www.linkedin.com/in/vukkumsp/',
+      icon: './assets/icons/linkedin.svg',
+      disabled: false
+    }
   
     return (
       <div>
@@ -22,7 +29,12 @@ export default function PopupModel({
             <div className="model-button-holder">
                 <button className='custom-btn' onClick={closeModal}>❌</button>
               </div>
-              
+              <CustomButton value='Message me on LinkedIn' type='link' config={linkedInConfig} />
+              <div className="or-divider">
+                <hr className="or-divider-line"/>
+                <span className="or-divider-text">or</span>
+                <hr className="or-divider-line"/>
+              </div>
               {
                 (contactForm==='true')?
                     <ContactMeForm />:

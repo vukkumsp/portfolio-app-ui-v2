@@ -5,14 +5,16 @@ import './Project.css';
 
 function Project({
     title, description = '', imgUrl,
-    liveLink, githubLink, skills = {} }) {
+    liveLink, githubLink, skills = {}, disabled='false' }) {
     let liveConfig = {
-        link: liveLink,
-        emoji: '🔴'
+        href: liveLink,
+        emoji: '🔴',
+        disabled
     };
     let githubConfig = {
-        link: githubLink,
-        icon: './assets/icons/github.svg'
+        href: githubLink,
+        icon: './assets/icons/github.svg',
+        disabled
     }
     return (
         <div className='project-container'>

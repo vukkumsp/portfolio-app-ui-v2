@@ -24,7 +24,15 @@ function CustomButton({value, type='default', config={},
                 description={config.description} 
                 contactForm='true'/>);
         case 'link':
-            if(config.emoji){
+            if(config.emoji){ 
+                if(config.disabled==='true'){
+                    return (
+                        <button className='custom-btn disabled-btn' role="button" disabled>
+                                <span className='emoji-element'>⚪</span>
+                                {value}
+                        </button>
+                    );
+                }
                 return (
                     <a className='custom-btn btn' role="button"
                         href= {config.href}
@@ -46,7 +54,6 @@ function CustomButton({value, type='default', config={},
                     </a>
                 );
             }
-
         default:
             return (
                 <button className='custom-btn btn' role="button">
