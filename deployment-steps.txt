@@ -1,0 +1,6 @@
+
+Step 1: Build using predeploy script.
+npm run predeploy
+
+Step 2: Use gh-pages to push the build to Github Pages.
+npm run deploy
