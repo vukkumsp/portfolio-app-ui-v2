@@ -2,6 +2,9 @@ import CustomButton from '../CustomButton/CustomButton.jsx';
 import SkillCardsHolder from '../SkillCardsHolder/SkillCardsHolder.jsx';
 import './Project.css';
 
+import Zoom from 'react-medium-image-zoom';
+import 'react-medium-image-zoom/dist/styles.css';
+
 function Project({
     title, description = '', imgUrl,
     liveLink, githubLink, skills = {}, disabled='false' }) {
@@ -18,7 +21,11 @@ function Project({
     return (
         <div className='project-container'>
             <div className='project-title'>{title}</div>
-            <img className='project-screenshot' src={imgUrl} />
+            
+            <Zoom>
+                <img className='project-screenshot' src={imgUrl} />
+            </Zoom>
+            
             <SkillCardsHolder skills={skills} />
             <div className='project-buttons-container'>
                 <CustomButton value='Live' type='link' config={liveConfig} />
