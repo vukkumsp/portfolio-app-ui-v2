@@ -1,13 +1,15 @@
-import ButtonsHolder1 from '../../components/ButtonsHolder1/ButtonsHolder1.jsx';
-import Heading from '../../components/Heading/Heading.jsx';
-import SkillCardsHolder from '../../components/SkillCardsHolder/SkillCardsHolder.jsx';
+import ButtonsHolder1 from '../../Components/ButtonsHolder1/ButtonsHolder1.jsx';
+import Heading from '../../Components/Heading/Heading.jsx';
+import SkillCardsHolder from '../../Components/SkillCardsHolder/SkillCardsHolder.jsx';
 import './RightColumn.css';
 
 function RightColumn() {
     const allSkills = [
         { value: "Javascript", iconFile: "javascript.png" },
-        { value: "Angular", iconFile: "angular.png" },
+        { value: "Angular 18", iconFile: "angular.png" },
         { value: "React", iconFile: "react.png" },
+        { value: "ReactNative", iconFile: "reactnative.png" },
+        { value: "Expo", iconFile: "expo.png" },
         { value: "ElectronJs", iconFile: "electronjs.png" },
         { value: "Java 11", iconFile: "java.png" },
         { value: "Spring", iconFile: "spring.png" },

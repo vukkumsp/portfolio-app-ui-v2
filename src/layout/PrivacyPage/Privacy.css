@@ -1,0 +1,6 @@
+.privacy-container {
+    height: 100vh;
+    text-align: center;
+    background-color: var(--themedark);
+    color: var(--font-color);
+}
