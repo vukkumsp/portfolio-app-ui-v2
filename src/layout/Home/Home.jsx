@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import LeftColumn from "../LeftColumn/LeftColumn.jsx";
 import RightColumn from "../RightColumn/RightColumn.jsx";
 
@@ -8,6 +9,9 @@ function Home(){
         <div className="home">
             <LeftColumn />
             <RightColumn />
+            {/* <Link to="/privacy" className="privacy-link">
+                Privacy Policy
+            </Link> */}
         </div>
     );
 }

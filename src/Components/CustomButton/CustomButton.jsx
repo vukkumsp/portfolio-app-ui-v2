@@ -22,7 +22,7 @@ function CustomButton({value, type='default', config={},
                 value={value} 
                 title={config.title} 
                 description={config.description} 
-                contactForm='true'/>);
+                contactForm='false'/>);
         case 'link':
             if(config.emoji){ 
                 if(config.disabled==='true'){
