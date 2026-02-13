@@ -6,8 +6,8 @@ function ButtonsHolder1() {
         title: 'Contact Me', description:''
     }
     let downloadConfig = {
-        href: '/data/Vukkum Sai Prakash - Fullstack Developer.pdf',
-        fileName: 'Vukkum Sai Prakash - Fullstack Developer.pdf'
+        href: '/data/Vukkum Sai Prakash - Senior Backend Engineer - Public.pdf',
+        fileName: 'Vukkum Sai Prakash - Senior Backend Engineer - Public.pdf'
     }
     const linkedInConfig = {
       href: 'https://www.linkedin.com/in/vukkumsp/',
