@@ -15,6 +15,7 @@ function RightColumn() {
         { value: "Spring", iconFile: "spring.png" },
         { value: "NodeJs", iconFile: "nodejs.png" },
         { value: "Docker", iconFile: "docker.png" },
+        { value: "AWS", iconFile: "aws.png" },
         // { value: "Solidity", iconFile: "solidity.png" },
     ];
 
