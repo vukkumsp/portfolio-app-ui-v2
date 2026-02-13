@@ -28,7 +28,7 @@ function PersonalProjects() {
             </div>
 
             <div className='projects'>
-                <div className='project'>
+                {/* <div className='project'>
                     <Project
                         title='Xpense Tracker'
                         imgUrl='https://raw.githubusercontent.com/vukkumsp/expenses-tracker/refs/heads/master/screenshots/237shots_so.png'
@@ -37,7 +37,7 @@ function PersonalProjects() {
                         disabled='true'
                         githubLink='https://github.com/vukkumsp/expenses-tracker'
                     />
-                </div>
+                </div> */}
                 <div className='project'>
                     <Project
                         title='Polling Booth'
@@ -47,7 +47,7 @@ function PersonalProjects() {
                         githubLink='https://github.com/vukkumsp/polling-booth'
                     />
                 </div>
-                <div className='project'>
+                {/* <div className='project'>
                     <Project
                         title='Local Entertainment System'
                         imgUrl='https://user-images.githubusercontent.com/9028439/190990778-a27803b5-31e9-45ab-bae5-69f1f8167155.png'
@@ -56,7 +56,7 @@ function PersonalProjects() {
                         disabled='true'
                         githubLink='https://github.com/vukkumsp/local-entertainment-system'
                     />
-                </div>
+                </div> */}
             </div>
         </div>
     );

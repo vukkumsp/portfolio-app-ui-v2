@@ -5,17 +5,17 @@ import './RightColumn.css';
 
 function RightColumn() {
     const allSkills = [
-        { value: "Javascript", iconFile: "javascript.png" },
-        { value: "Angular 18", iconFile: "angular.png" },
-        { value: "React", iconFile: "react.png" },
-        { value: "ReactNative", iconFile: "reactnative.png" },
-        { value: "Expo", iconFile: "expo.png" },
-        { value: "ElectronJs", iconFile: "electronjs.png" },
-        { value: "Java 11", iconFile: "java.png" },
+        // { value: "Javascript", iconFile: "javascript.png" },
+        // { value: "Angular 21", iconFile: "angular.png" },
+        // { value: "React", iconFile: "react.png" },
+        // { value: "ReactNative", iconFile: "reactnative.png" },
+        // { value: "Expo", iconFile: "expo.png" },
+        // { value: "ElectronJs", iconFile: "electronjs.png" },
+        { value: "Java 21", iconFile: "java.png" },
         { value: "Spring", iconFile: "spring.png" },
         { value: "NodeJs", iconFile: "nodejs.png" },
         { value: "Docker", iconFile: "docker.png" },
-        { value: "Solidity", iconFile: "solidity.png" },
+        // { value: "Solidity", iconFile: "solidity.png" },
     ];
 
     return (
