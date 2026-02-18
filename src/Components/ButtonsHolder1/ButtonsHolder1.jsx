@@ -20,9 +20,9 @@ function ButtonsHolder1() {
                 type='popup' config={popupConfig}/> */}
             <CustomButton value='Message me on LinkedIn' 
                 type='link' config={linkedInConfig} />
-            <CustomButton value="Download CV" 
+            {/* <CustomButton value="Download CV" 
                 type='downloader' 
-                config={downloadConfig}/>
+                config={downloadConfig}/> */}
         </div>
     );
 }
