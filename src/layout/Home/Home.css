@@ -1,9 +1,9 @@
 .home {
     display: flex;
-    width: min(90%, 900px);
+    width: min(95%, 900px);
     height: min(90%, 900px);
     box-sizing: border-box;
-    margin: clamp(28px, 9vh, 110px) auto 0;
+    margin: clamp(28px, 1vh, 110px) auto;
     padding: clamp(24px, 4vw, 46px);
     align-items: center;
     background: var(--card-background);
@@ -16,8 +16,8 @@
         /* width: min(100%, 360px); */
         min-height: 0;
         flex-direction: column;
-        margin-top: 24px;
-        padding: 28px 20px 24px;
+        /* margin-top: 24px;
+        padding: 28px 20px 24px; */
         text-align: center;
     }
 }

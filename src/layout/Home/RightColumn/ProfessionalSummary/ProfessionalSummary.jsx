@@ -2,9 +2,10 @@ import './ProfessionalSummary.css';
 
 function ProfessionalSummary({ summary }) {
     return (
-        <div className="summary-container">
+        <fieldset className="summary-container">
+            <legend>Professional Summary</legend>
             <p>{summary || "No summary available."}</p>
-        </div>
+        </fieldset>
     );
 }
 
