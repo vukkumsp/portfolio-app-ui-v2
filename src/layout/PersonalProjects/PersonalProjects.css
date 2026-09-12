@@ -1,20 +1,20 @@
 .personal-projects-container{
-    /* background-color: var(--themedark); */
-    /* height: 80vh; */
+    width: min(100%, 900px);
+    margin: 0 auto;
     text-align: center;
 }
 
 .projects-title{
     padding-top: 1vh;
     font-size:large;
-    color: var(--font-color);
+    color: var(--text-primary);
 }
 
 .projects {
     /* display: inline-flex; */
     display: flex;
     flex-wrap: wrap;
-    color: var(--themelight);
+    color: var(--text-primary);
 }
 
 .project {
@@ -37,8 +37,8 @@
 }
 
 .divider-band{
-    background-color: var(--themelight);
-    color: var(--themelight);
+    background-color: var(--card-border);
+    color: var(--card-border);
     margin-left: 2vw;
     margin-right: 2vw;
     border-radius: 10px;

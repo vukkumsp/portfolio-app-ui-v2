@@ -2,8 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
 import Home from './layout/Home/Home.jsx';
-import PersonalProjects from './layout/PersonalProjects/PersonalProjects.jsx';
-import Privacy from './layout/PrivacyPage/Privacy.jsx';
 
 function App() {
   return (
@@ -16,10 +14,9 @@ function App() {
           <Route path="/" element={
               <>
                 <Home />
-                <PersonalProjects />
+                {/* <PersonalProjects /> */}
               </>
           } />
-          <Route path="/privacy" element={<Privacy />} />
         </Routes>
       </div>
     </div>

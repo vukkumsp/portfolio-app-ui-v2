@@ -1,0 +1,14 @@
+.skill-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 7px;
+    padding: 18px 0 0;
+}
+
+@media screen and (max-width: 600px){
+    .skill-cards {
+        justify-content: center;
+        padding-top: 16px;
+    }
+}

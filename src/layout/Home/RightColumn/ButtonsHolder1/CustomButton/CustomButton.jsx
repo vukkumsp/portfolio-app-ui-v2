@@ -1,4 +1,3 @@
-import PopupModel from '../../layout/PopupModel/PopupModel.jsx';
 import './CustomButton.css';
 
 function CustomButton({value, type='default', config={},
@@ -8,21 +7,18 @@ function CustomButton({value, type='default', config={},
     console.log(config);
     switch(type){
         case 'downloader':
-            return (
-                <a className='custom-btn btn' role="button"
-                    href= {config.href}
-                    download= {config.fileName}
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                     >{value}
-                </a>
-            );
-        case 'popup':
-            return (<PopupModel 
-                value={value} 
-                title={config.title} 
-                description={config.description} 
-                contactForm='false'/>);
+            if(config.disabled==='false'){
+                return (
+                    <a className='custom-btn btn' role="button"
+                        href= {config.href}
+                        download= {config.fileName}
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        >{value}
+                    </a>
+                );
+            }
+            break;
         case 'link':
             if(config.emoji){ 
                 if(config.disabled==='true'){
@@ -54,6 +50,7 @@ function CustomButton({value, type='default', config={},
                     </a>
                 );
             }
+            break;
         default:
             return (
                 <button className='custom-btn btn' role="button">
@@ -61,33 +58,6 @@ function CustomButton({value, type='default', config={},
                 </button>
             );
     }
-
-    // if(type==='downloader') {
-    //     // "/files/sample.pdf"
-    //     // "sample.pdf"
-    //     return (
-    //         <button className='custom-btn btn'>
-    //         <a role="button"
-    //             href= {config.href}
-    //             download= {config.fileName}
-    //             target="_blank" 
-    //             rel="noopener noreferrer"
-    //              >{value}
-    //         </a></button>
-    //     );        
-    // }
-    // if(type==='popup'){
-    //     return (<PopupModel 
-    //         value={value} 
-    //         title={config.title} 
-    //         description={config.description} 
-    //         contactForm='true'/>);
-    // }
-    // return (
-    //     <button className='custom-btn btn' role="button">
-    //         {value}
-    //     </button>
-    // );
 }
 
 export default CustomButton;

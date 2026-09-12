@@ -1,10 +1,7 @@
 import { useState, useEffect } from 'react';
-import LeftColumn from "./LeftColumn/LeftColumn.jsx";
-import RightColumn from "./RightColumn/RightColumn.jsx";
+import './Heading.css';
 
-import './Home.css';
-
-function Home(){
+function Heading() {
     const [content, setContent] = useState({
         name: 'Sai Prakash',
         role: 'Full Stack Developer',
@@ -12,9 +9,7 @@ function Home(){
             city: 'Hyderabad',
             country: 'India',
             link: 'https://maps.app.goo.gl/VKBytf8V1HwqxLGa9'
-        },
-        skills: [],
-        professionalSummary: ''
+        }
     });
 
     useEffect(()=>{
@@ -28,14 +23,21 @@ function Home(){
     }, []);
 
     return (
-        <main className="home" aria-label="Profile summary">
-            <LeftColumn />
-            <RightColumn content={content} />
-            {/* <Link to="/privacy" className="privacy-link">
-                Privacy Policy
-            </Link> */}
-        </main>
+    <div className='heading'>
+        <p className='location'>
+            <a href={content.location.link} target="_blank" rel="noopener noreferrer">
+                📍{content.location.city}, {content.location.country}
+            </a>
+        </p>
+        <div className='prefix'>
+            <span className='name'>{content.name || 'Sai Prakash'}</span>
+        </div>
+        <div>
+            <span className="job-role">{content.role || 'Full Stack Developer'}</span>
+            
+        </div>
+    </div>
     );
 }
 
-export default Home;
+export default Heading;

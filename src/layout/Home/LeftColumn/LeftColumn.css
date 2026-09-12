@@ -1,0 +1,17 @@
+.left-column{
+    flex: 0 0 38%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+}
+
+.profile-avatar {
+    width: clamp(155px, 45vw, 250px);
+    height: clamp(155px, 45vw, 250px);
+    object-fit: cover;
+    object-position: center top;
+    border: 3px solid var(--card-border);
+    border-radius: 50%;
+    background: var(--avatar-background);
+}

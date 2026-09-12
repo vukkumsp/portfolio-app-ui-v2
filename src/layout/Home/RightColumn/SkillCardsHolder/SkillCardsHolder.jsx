@@ -1,4 +1,4 @@
-import SkillCard from '../SkillCard/SkillCard.jsx';
+import SkillCard from './SkillCard/SkillCard.jsx';
 import './SkillCardsHolder.css';
 
 /* 
@@ -15,12 +15,14 @@ function SkillCardsHolder({skills}) {
     const skillsArray = [];
 
     for (let i = 0; i < skills.length; i++) {
-        skillsArray.push(
-            <SkillCard title={skills[i].value} logoPath={logoPathDir+skills[i].iconFile} />
-        );
+        if (skills[i].present) {
+            skillsArray.push(
+                <SkillCard title={skills[i].value} logoPath={logoPathDir+skills[i].iconFile} />
+            );
+        }
     }
 
-    return (
+    return (<>
         <div className='skill-cards'>
             {skillsArray}
             {/* <SkillCard title="Javascript" logoPath="./assets/icons/javascript.png" />
@@ -33,6 +35,8 @@ function SkillCardsHolder({skills}) {
             <SkillCard title="AWS" logoPath="./assets/icons/aws.png" />
             <SkillCard title="Solidity" logoPath="./assets/icons/solidity.png" /> */}
         </div>
+    </>
+        
     );
 }
 

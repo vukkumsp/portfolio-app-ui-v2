@@ -1,0 +1,59 @@
+.custom-btn {
+    background-color: var(--card-background);
+    color: var(--text-primary);
+    border: 1px solid var(--card-border);
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 9px 14px;
+    margin: 14px 0 0;
+    width: fit-content;
+    text-decoration: none;
+    text-align: center;
+}
+
+.custom-btn:hover{
+    background-color: var(--skillcard);
+    color: var(--text-primary);
+}
+
+.btn{
+    border: 1px solid var(--card-border);
+}
+
+.disabled-btn{
+    cursor:not-allowed;
+    background-color: var(--themedark);
+    color: var(--themelight);
+}
+
+.disabled-btn:hover{
+    background-color: var(--themedark);
+    color: var(--themelight);
+}
+
+.icon-element{
+    vertical-align: -3px;
+    height: 17px;
+    padding-right: 8px;
+}
+
+.emoji-element{
+    padding-right: 8px;
+}
+
+@keyframes blink-animation {
+    0%, 50% {
+      color: red;
+    }
+    51%, 100% {
+      color: white;
+    }
+  }
+
+.recording-animation{
+    text-align: center;
+    animation: blink-animation 1s infinite;
+}
+
+
+

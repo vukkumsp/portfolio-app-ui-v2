@@ -1,36 +1,27 @@
 :root {
-    --transparent: rgba(255, 255, 255, 0);
-    --font-color: antiquewhite;
-    --font-theme: 'Poppins', serif;
-    --themedark: rgb(24, 24, 56);
-    --themedarker-btn: rgb(0, 0, 48);
-    --themelight: rgb(146, 179, 255);
-    --skillcard: rgb(209, 223, 255);
-    --skillcard-hover: rgb(146, 179, 255);
-    --themedark-warning: rgb(228, 107, 107);
-    --themelight-warning: rgb(255, 199, 199);
-
-    /* For background animation */
-    --gradient-1: rgb(41, 41, 105);
-    --gradient-2: rgb(24, 24, 56);
+  --font-theme: 'Trebuchet MS', sans-serif;
+  --page-background: #eef0f2;
+  --card-background: #ffffff;
+  --card-border: #9da5ad;
+  --avatar-background: #dce1e6;
+  --text-primary: #252a30;
+  --text-muted: #68717b;
+  --accent: #bc5e3c;
+    --font-color: #252a30;
+    --themedark-warning: #a64040;
+    --themelight-warning: #f5d8d8;
+  --themedark: #252a30;
+  --themedarker-btn: #303840;
+  --themelight: #ffffff;
+  --skillcard: #eef1f3;
+  --skillcard-hover: #dce1e6;
 }
 
 body {
     font-family: var(--font-theme);
-    font-size: smaller;
     margin: 0px;
-    background-color: var(--themedark);
+    background-color: var(--page-background);
     cursor:default;
-
-    
-    /* margin-left: 9vw;
-    margin-right: 9vw; */
-
-    /* background-image: url('./../public/assets/pexels-italo-melo-881954-2379004.jpg');
-    background-size: cover;
-    background-size:40%;
-    background-repeat: no-repeat; */
-    /* background-size: contain; */
 }
 
 /* Mobile Screen */
@@ -40,34 +31,11 @@ body {
     }
 }
 
-/* Full background animation */
+/* Full Background */
 .background {
-    /* position: fixed; */
-    top: 0;
-    left: 0;
     width: 100%;
-    /* height: 100vh; */
-
-    background: linear-gradient(-45deg, 
-                var(--gradient-1), var(--gradient-2), 
-                var(--gradient-1), var(--gradient-2),
-                var(--gradient-1), var(--gradient-2));
-    background-size: 400% 400%;
-    animation: gradientAnimation 15s ease infinite;
-    z-index: -1;
-  }
-
-  @keyframes gradientAnimation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+    padding-bottom: 48px;
+}
 
 .page-container {
     padding-left: 9vw;

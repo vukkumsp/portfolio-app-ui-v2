@@ -1,5 +1,5 @@
-import CustomButton from '../CustomButton/CustomButton.jsx';
-import SkillCardsHolder from '../SkillCardsHolder/SkillCardsHolder.jsx';
+import CustomButton from '../../layout/Home/RightColumn/ButtonsHolder1/CustomButton/CustomButton.jsx';
+import SkillCardsHolder from '../../layout/Home/RightColumn/SkillCardsHolder/SkillCardsHolder.jsx';
 import './Project.css';
 
 import Zoom from 'react-medium-image-zoom';

@@ -1,0 +1,16 @@
+.right-column {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: clamp(24px, 4vw, 58px);
+}
+
+@media screen and (max-width: 600px){
+    .right-column {
+        align-items: center;
+        padding: 20px 0 0;
+        text-align: center;
+    }
+}
