@@ -1,3 +1,105 @@
 {
-    "role":"Senior Backend Engineer"
+    "name": "Vukkum Sai Prakash",
+    "role": "Senior Backend Engineer",
+    "location": {
+        "city": "Hyderabad",
+        "country": "India",
+        "link": "https://maps.app.goo.gl/VKBytf8V1HwqxLGa9"
+    },
+    "professionalSummary": "Java Backend Engineer with 7.8 years of experience in designing scalable microservices and rich frontend applications. Skilled in Java, Spring Boot, Angular and AWS with a strong track record of delivering production-grade solutions across insurance and healthcare domains.",
+    "skills": [
+        {
+            "value": "Javascript",
+            "iconFile": "javascript.png",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+            "present": true
+        },
+        {
+            "value": "Typescript",
+            "iconFile": "typescript.png",
+            "link": "https://www.typescriptlang.org/",
+            "present": true
+        },
+        {
+            "value": "Angular 21",
+            "iconFile": "angular.png",
+            "link": "https://angular.io/",
+            "present": true
+        },
+        {
+            "value": "React",
+            "iconFile": "react.png",
+            "link": "https://reactjs.org/",
+            "present": true
+        },
+        {
+            "value": "ReactNative",
+            "iconFile": "reactnative.png",
+            "link": "https://reactnative.dev/",
+            "present": false
+        },
+        {
+            "value": "Expo",
+            "iconFile": "expo.png",
+            "link": "https://expo.dev/",
+            "present": false
+        },
+        {
+            "value": "ElectronJs",
+            "iconFile": "electronjs.png",
+            "link": "https://www.electronjs.org/",
+            "present": false
+        },
+        {
+            "value": "Java 21",
+            "iconFile": "java.png",
+            "link": "https://docs.oracle.com/en/java/javase/21/",
+            "present": true
+        },
+        {
+            "value": "Spring 4.x",
+            "iconFile": "spring.png",
+            "link": "https://spring.io/projects/spring-framework",
+            "present": true
+        },
+        {
+            "value": "NodeJs",
+            "iconFile": "nodejs.png",
+            "link": "https://nodejs.org/",
+            "present": false
+        },
+        {
+            "value": "Docker",
+            "iconFile": "docker.png",
+            "link": "https://www.docker.com/",
+            "present": true
+        },
+        {
+            "value": "AWS",
+            "iconFile": "aws.png",
+            "link": "https://aws.amazon.com/",
+            "present": true
+        },
+        {
+            "value": "Solidity",
+            "iconFile": "solidity.png",
+            "link": "https://docs.soliditylang.org/",
+            "present": false
+        }
+    ],
+    "linkedInConfig" : {
+      "href": "https://www.linkedin.com/in/vukkumsp/",
+      "icon": "./assets/icons/linkedin.svg",
+      "disabled": false
+    },
+    "downloadResumeConfig" : {
+        "href": "/data/Vukkum Sai Prakash - Senior Backend Engineer - Public.pdf",
+        "fileName": "Vukkum Sai Prakash - Senior Backend Engineer - Public.pdf",
+        "disabled": true
+    },
+    "githubConfig" : {
+        "href": "https://github.com/vukkumsp",
+        "icon": "./assets/icons/github.svg",
+        "disabled": false
+    }
 }
