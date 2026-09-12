@@ -1,5 +1,5 @@
-import CustomButton from '../../layout/Home/RightColumn/ButtonsHolder1/CustomButton/CustomButton.jsx';
-import SkillCardsHolder from '../../layout/Home/RightColumn/SkillCardsHolder/SkillCardsHolder.jsx';
+import CustomButton from '../../Components/CustomButton/CustomButton.jsx';
+import SkillCardsHolder from '../../Components/SkillCardsHolder/SkillCardsHolder.jsx';
 import './Project.css';
 
 import Zoom from 'react-medium-image-zoom';
@@ -7,7 +7,7 @@ import 'react-medium-image-zoom/dist/styles.css';
 
 function Project({
     title, description = '', imgUrl,
-    liveLink, githubLink, skills = {}, disabled='false' }) {
+    liveLink, githubLink, skills = {}, disabled = 'false' }) {
     let liveConfig = {
         href: liveLink,
         emoji: '🔴',
@@ -19,19 +19,20 @@ function Project({
         disabled
     }
     return (
-        <div className='project-container'>
-            <div className='project-title'>{title}</div>
-            
+        <fieldset className='project-container'>
+            <legend className='project-title'>{title}</legend>
             <Zoom>
                 <img className='project-screenshot' src={imgUrl} />
             </Zoom>
-            
+
             <SkillCardsHolder skills={skills} />
+            <p className='project-description'>{description}</p>
+
             <div className='project-buttons-container'>
                 <CustomButton value='Live' type='link' config={liveConfig} />
                 <CustomButton value='Github' type='link' config={githubConfig} />
             </div>
-        </div>
+        </fieldset>
     );
 }
 

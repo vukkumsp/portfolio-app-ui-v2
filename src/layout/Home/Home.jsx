@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
-import LeftColumn from "./LeftColumn/LeftColumn.jsx";
-import RightColumn from "./RightColumn/RightColumn.jsx";
+import LeftColumn from "./MainSection/LeftColumn/LeftColumn.jsx";
+import RightColumn from "./MainSection/RightColumn/RightColumn.jsx";
+import PersonalProjects from '../PersonalProjects/PersonalProjects.jsx';
 
 import './Home.css';
 
@@ -28,12 +29,17 @@ function Home(){
     }, []);
 
     return (
-        <main className="home" aria-label="Profile summary">
-            <LeftColumn />
-            <RightColumn content={content} />
-            {/* <Link to="/privacy" className="privacy-link">
-                Privacy Policy
-            </Link> */}
+        <main className="home">
+            {/* Section 1 */}
+            <div className="main-section" aria-label="Profile summary">
+                    <LeftColumn />
+                    <RightColumn content={content} />
+            </div>
+            
+            <hr className='horizontal-line'/>
+
+            {/* Section 2 */}
+            <PersonalProjects projects={content.projects} />
         </main>
     );
 }

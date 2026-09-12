@@ -1,6 +1,6 @@
 import Heading from './Heading/Heading.jsx';
 import ButtonsHolder1 from './ButtonsHolder1/ButtonsHolder1.jsx';
-import SkillCardsHolder from './SkillCardsHolder/SkillCardsHolder.jsx';
+import SkillCardsHolder from '../../../../Components/SkillCardsHolder/SkillCardsHolder.jsx';
 import ProfessionalSummary from './ProfessionalSummary/ProfessionalSummary.jsx';
 
 import './RightColumn.css';
