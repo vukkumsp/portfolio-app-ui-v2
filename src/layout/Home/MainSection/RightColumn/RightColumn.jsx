@@ -1,5 +1,5 @@
 import Heading from './Heading/Heading.jsx';
-import ButtonsHolder1 from './ButtonsHolder1/ButtonsHolder1.jsx';
+import CustomButton from '../../../../Components/CustomButton/CustomButton.jsx';
 import SkillCardsHolder from '../../../../Components/SkillCardsHolder/SkillCardsHolder.jsx';
 import ProfessionalSummary from './ProfessionalSummary/ProfessionalSummary.jsx';
 
@@ -10,11 +10,15 @@ function RightColumn({ content }) {
     return (
         <div className="right-column">
             <Heading />
-            <ButtonsHolder1 
-                linkedInConfig={content.linkedInConfig} 
-                downloadResumeConfig={content.downloadResumeConfig}
-                githubConfig={content.githubConfig}
-            />
+            <div className='buttons-holder'>
+                <CustomButton value='Message me on LinkedIn' 
+                    type='link' config={content.linkedInConfig} />
+                <CustomButton value="Download CV" 
+                    type='downloader' 
+                    config={content.downloadResumeConfig}/>
+                <CustomButton value="Github"
+                    type='link' config={content.githubConfig} />
+            </div>
             <SkillCardsHolder skills={content.skills || []} />
             <ProfessionalSummary summary={content.professionalSummary} />
         </div>
