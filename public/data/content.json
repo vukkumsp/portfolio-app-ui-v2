@@ -1,0 +1,252 @@
+{
+    "name": "Vukkum Sai Prakash",
+    "role": "Senior Backend Engineer",
+    "location": {
+        "city": "Hyderabad",
+        "country": "India",
+        "link": "https://maps.app.goo.gl/VKBytf8V1HwqxLGa9"
+    },
+    "professionalSummary": "Java Backend Engineer with 7.8 years of experience in designing scalable microservices and rich frontend applications. Skilled in Java, Spring Boot, Angular and AWS with a strong track record of delivering production-grade solutions across insurance and healthcare domains.",
+    "skills": [
+        {
+            "value": "Java 21",
+            "iconFile": "java.png",
+            "link": "https://docs.oracle.com/en/java/javase/21/",
+            "present": true
+        },
+        {
+            "value": "Spring 4.x",
+            "iconFile": "spring.png",
+            "link": "https://spring.io/projects/spring-framework",
+            "present": true
+        },
+        {
+            "value": "RabbitMQ",
+            "iconFile": "rabbitmq.png",
+            "link": "https://www.rabbitmq.com/",
+            "present": true
+        },
+        {
+            "value": "Kafka",
+            "iconFile": "kafka.png",
+            "link": "https://kafka.apache.org/",
+            "present": true
+        },
+        {
+            "value": "Javascript",
+            "iconFile": "javascript.png",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+            "present": true
+        },
+        {
+            "value": "Typescript",
+            "iconFile": "typescript.png",
+            "link": "https://www.typescriptlang.org/",
+            "present": true
+        },
+        {
+            "value": "Angular 21",
+            "iconFile": "angular.png",
+            "link": "https://angular.io/",
+            "present": true
+        },
+        {
+            "value": "React",
+            "iconFile": "react.png",
+            "link": "https://reactjs.org/",
+            "present": true
+        },
+        {
+            "value": "ReactNative",
+            "iconFile": "reactnative.png",
+            "link": "https://reactnative.dev/",
+            "present": false
+        },
+        {
+            "value": "Expo",
+            "iconFile": "expo.png",
+            "link": "https://expo.dev/",
+            "present": false
+        },
+        {
+            "value": "ElectronJs",
+            "iconFile": "electronjs.png",
+            "link": "https://www.electronjs.org/",
+            "present": false
+        },
+        {
+            "value": "NodeJs",
+            "iconFile": "nodejs.png",
+            "link": "https://nodejs.org/",
+            "present": false
+        },
+        {
+            "value": "Docker",
+            "iconFile": "docker.png",
+            "link": "https://www.docker.com/",
+            "present": true
+        },
+        {
+            "value": "AWS",
+            "iconFile": "aws.png",
+            "link": "https://aws.amazon.com/",
+            "present": true
+        },
+        {
+            "value": "Solidity",
+            "iconFile": "solidity.png",
+            "link": "https://docs.soliditylang.org/",
+            "present": false
+        },
+        {
+            "value": "Hardhat",
+            "iconFile": "hardhat.png",
+            "link": "https://hardhat.org/",
+            "present": false
+        }
+    ],
+    "linkedInConfig" : {
+      "href": "https://www.linkedin.com/in/vukkumsp/",
+      "icon": "./assets/icons/linkedin.svg",
+      "disabled": false
+    },
+    "downloadResumeConfig" : {
+        "href": "/data/Vukkum Sai Prakash - Senior Backend Engineer - Public.pdf",
+        "fileName": "Vukkum Sai Prakash - Senior Backend Engineer - Public.pdf",
+        "disabled": true
+    },
+    "githubConfig" : {
+        "href": "https://github.com/vukkumsp",
+        "icon": "./assets/icons/github.svg",
+        "disabled": false
+    },
+    "projects": [
+        {
+            "title": "Enigma",
+            "imgUrl": "https://raw.githubusercontent.com/vukkumsp/laughing-enigma/refs/heads/main/screenshots/events-page-screenshot.png",
+            "skills": [
+                {
+                    "value": "Angular 21",
+                    "iconFile": "angular.png",
+                    "present": true
+                },
+                {
+                    "value": "Java 21",
+                    "iconFile": "java.png",
+                    "link": "https://docs.oracle.com/en/java/javase/21/",
+                    "present": true
+                },
+                {
+                    "value": "Spring 4.x",
+                    "iconFile": "spring.png",
+                    "link": "https://spring.io/projects/spring-framework",
+                    "present": true
+                },
+                {
+                    "value": "RabbitMQ",
+                    "iconFile": "rabbitmq.png",
+                    "link": "https://www.rabbitmq.com/",
+                    "present": true
+                },
+                {
+                    "value": "Kafka",
+                    "iconFile": "kafka.png",
+                    "link": "https://kafka.apache.org/",
+                    "present": true
+                },
+                {
+                    "value": "Docker",
+                    "iconFile": "docker.png",
+                    "link": "https://www.docker.com/",
+                    "present": true
+                }
+            ],
+            "liveLink": "https://laughing-enigma-qwvs.onrender.com",
+            "disabled": false,
+            "githubLink": "https://github.com/vukkumsp/laughing-enigma",
+            "description": "It demonstrates how a Microservice Architecture can manage multiple real life like failure scenarios in an Event Booking Application."
+        },
+        {
+            "title": "Polling Booth",
+            "imgUrl": "https://raw.githubusercontent.com/vukkumsp/polling-booth/refs/heads/main/src/assets/screenshots/1.png",
+            "skills": [
+                {
+                    "value": "Javascript",
+                    "iconFile": "javascript.png",
+                    "present": true
+                },
+                {
+                    "value": "Angular 18",
+                    "iconFile": "angular.png",
+                    "present": true
+                },
+                {
+                    "value": "Solidity",
+                    "iconFile": "solidity.png",
+                    "present": true
+                },
+                {
+                    "value": "Hardhat",
+                    "iconFile": "hardhat.png",
+                    "link": "https://hardhat.org/",
+                    "present": true
+                }
+            ],
+            "liveLink": "https://vukkumsp.github.io/polling-booth/",
+            "disabled": false,
+            "githubLink": "https://github.com/vukkumsp/polling-booth",
+            "description": "Polling Booth is a decentralized voting application built on the Ethereum blockchain. It allows users to create and participate in polls securely and transparently. The application leverages smart contracts to ensure the integrity of the voting process, making it tamper-proof and verifiable."
+        },
+        {
+            "title": "Xpense Tracker",
+            "imgUrl": "https://raw.githubusercontent.com/vukkumsp/expenses-tracker/refs/heads/master/screenshots/237shots_so.png",
+            "skills": [
+                {   
+                    "value": "ReactNative",
+                    "iconFile": "reactnative.png",
+                    "present": true
+                },
+                {
+                    "value": "React",
+                    "iconFile": "react.png",
+                    "present": true
+                },
+                {
+                    "value": "Expo",
+                    "iconFile": "expo.png",
+                    "present": true
+                }
+            ],
+            "emoji": false,
+            "liveLink": "#",
+            "disabled": false,
+            "githubLink": "https://github.com/vukkumsp/expenses-tracker",
+            "description": "Xpense Tracker is a mobile application that helps users track their expenses and manage their finances effectively. It provides features such as expense categorization, budget tracking, and visual reports to give users insights into their spending habits. The app is built using React Native and Expo, ensuring a smooth and responsive user experience across both iOS and Android platforms."
+        },
+        {
+            "title": "Local Entertainment System",
+            "imgUrl": "https://user-images.githubusercontent.com/9028439/190990778-a27803b5-31e9-45ab-bae5-69f1f8167155.png",
+            "skills": [
+                {
+                    "value": "Angular 18",
+                    "iconFile": "angular.png",
+                    "present": true
+                },
+                {
+                    "value": "ElectronJs",
+                    "iconFile": "electronjs.png",
+                    "present": true
+                },
+                {
+                    "value": "NodeJs",
+                    "iconFile": "nodejs.png",
+                    "present": true
+                }
+            ],
+            "liveLink": "#",
+            "disabled": false,
+            "githubLink": "https://github.com/vukkumsp/local-entertainment-system",
+            "description": "Local Entertainment System is a desktop application that provides users with a local media management and playback solution. Built using ElectronJs and Angular, the application allows users to organize their media files, create playlists, and enjoy seamless playback of audio and video content. It offers an intuitive user interface and offline functionality, making it a convenient choice for managing entertainment locally."
+        }
+    ]
+}
