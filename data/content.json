@@ -9,6 +9,36 @@
     "professionalSummary": "Java Backend Engineer with 7.8 years of experience in designing scalable microservices and rich frontend applications. Skilled in Java, Spring Boot, Angular and AWS with a strong track record of delivering production-grade solutions across insurance and healthcare domains.",
     "skills": [
         {
+            "value": "Java 21",
+            "iconFile": "java.png",
+            "link": "https://docs.oracle.com/en/java/javase/21/",
+            "present": true
+        },
+        {
+            "value": "Spring 4.x",
+            "iconFile": "spring.png",
+            "link": "https://spring.io/projects/spring-framework",
+            "present": true
+        },
+        {
+            "value": "RabbitMQ",
+            "iconFile": "rabbitmq.png",
+            "link": "https://www.rabbitmq.com/",
+            "present": true
+        },
+        {
+            "value": "Kafka",
+            "iconFile": "kafka.png",
+            "link": "https://kafka.apache.org/",
+            "present": true
+        },
+        {
+            "value": "PostgreSQL",
+            "iconFile": "postgresql.png",
+            "link": "https://www.postgresql.org/",
+            "present": true
+        },
+        {
             "value": "Javascript",
             "iconFile": "javascript.png",
             "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
@@ -30,7 +60,7 @@
             "value": "React",
             "iconFile": "react.png",
             "link": "https://reactjs.org/",
-            "present": true
+            "present": false
         },
         {
             "value": "ReactNative",
@@ -49,18 +79,6 @@
             "iconFile": "electronjs.png",
             "link": "https://www.electronjs.org/",
             "present": false
-        },
-        {
-            "value": "Java 21",
-            "iconFile": "java.png",
-            "link": "https://docs.oracle.com/en/java/javase/21/",
-            "present": true
-        },
-        {
-            "value": "Spring 4.x",
-            "iconFile": "spring.png",
-            "link": "https://spring.io/projects/spring-framework",
-            "present": true
         },
         {
             "value": "NodeJs",
@@ -85,11 +103,17 @@
             "iconFile": "solidity.png",
             "link": "https://docs.soliditylang.org/",
             "present": false
+        },
+        {
+            "value": "Hardhat",
+            "iconFile": "hardhat.png",
+            "link": "https://hardhat.org/",
+            "present": false
         }
     ],
     "linkedInConfig" : {
       "href": "https://www.linkedin.com/in/vukkumsp/",
-      "icon": "./assets/icons/linkedin.svg",
+      "icon": "./assets/icons/linkedin.png",
       "disabled": false
     },
     "downloadResumeConfig" : {
@@ -99,7 +123,7 @@
     },
     "githubConfig" : {
         "href": "https://github.com/vukkumsp",
-        "icon": "./assets/icons/github.svg",
+        "icon": "./assets/icons/github.png",
         "disabled": false
     },
     "projects": [
@@ -108,18 +132,38 @@
             "imgUrl": "https://raw.githubusercontent.com/vukkumsp/laughing-enigma/refs/heads/main/screenshots/events-page-screenshot.png",
             "skills": [
                 {
-                    "value": "Javascript",
-                    "iconFile": "javascript.png",
-                    "present": true
-                },
-                {
                     "value": "Angular 21",
                     "iconFile": "angular.png",
                     "present": true
                 },
                 {
-                    "value": "Solidity",
-                    "iconFile": "solidity.png",
+                    "value": "Java 21",
+                    "iconFile": "java.png",
+                    "link": "https://docs.oracle.com/en/java/javase/21/",
+                    "present": true
+                },
+                {
+                    "value": "Spring 4.x",
+                    "iconFile": "spring.png",
+                    "link": "https://spring.io/projects/spring-framework",
+                    "present": true
+                },
+                {
+                    "value": "RabbitMQ",
+                    "iconFile": "rabbitmq.png",
+                    "link": "https://www.rabbitmq.com/",
+                    "present": true
+                },
+                {
+                    "value": "Kafka",
+                    "iconFile": "kafka.png",
+                    "link": "https://kafka.apache.org/",
+                    "present": true
+                },
+                {
+                    "value": "Docker",
+                    "iconFile": "docker.png",
+                    "link": "https://www.docker.com/",
                     "present": true
                 }
             ],
@@ -145,6 +189,12 @@
                 {
                     "value": "Solidity",
                     "iconFile": "solidity.png",
+                    "present": true
+                },
+                {
+                    "value": "Hardhat",
+                    "iconFile": "hardhat.png",
+                    "link": "https://hardhat.org/",
                     "present": true
                 }
             ],
@@ -190,7 +240,7 @@
                 },
                 {
                     "value": "ElectronJs",
-                    "iconFile": "electronjs.png",
+                    "iconFile": "electronjs-2.png",
                     "present": true
                 },
                 {
