@@ -11,12 +11,11 @@ function Project({
     let liveConfig = {
         href: liveLink,
         emoji: '🔴',
-        disabled
+        disabled: liveLink === '#' ? 'true' : 'false',
     };
     let githubConfig = {
         href: githubLink,
-        icon: './assets/icons/github.svg',
-        disabled
+        icon: './assets/icons/github.svg'
     }
     return (
         <fieldset className='project-container'>

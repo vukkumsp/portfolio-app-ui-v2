@@ -5,8 +5,9 @@
 }
 
 .projects-title{
+    font-size: 1.5rem;
+    font-weight: bold;
     padding-top: 1vh;
-    font-size:large;
     color: var(--text-primary);
 }
 

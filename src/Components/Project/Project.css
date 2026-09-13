@@ -56,6 +56,10 @@
     }
 }
 
+.project-title {
+    font-size: 1.2rem;
+}
+
 .project-title, .project-screenshot{
     padding:5px;
 }
@@ -70,4 +74,6 @@
 .project-buttons-container{
     margin-top: auto;
     padding: 5px;
+    display: flex;
+    gap: 10px;
 }
