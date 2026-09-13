@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import LeftColumn from "./MainSection/LeftColumn/LeftColumn.jsx";
 import RightColumn from "./MainSection/RightColumn/RightColumn.jsx";
-import PersonalProjects from '../PersonalProjects/PersonalProjects.jsx';
+import PersonalProjects from './PersonalProjects/PersonalProjects.jsx';
 
 import './Home.css';
 
@@ -29,7 +29,8 @@ function Home(){
     }, []);
 
     return (
-        <main className="home">
+        <>
+                <main className="home">
             {/* Section 1 */}
             <div className="main-section" aria-label="Profile summary">
                     <LeftColumn />
@@ -41,6 +42,11 @@ function Home(){
             {/* Section 2 */}
             <PersonalProjects projects={content.projects} />
         </main>
+        <footer>
+            The footer
+        </footer>
+        </>
+
     );
 }
 

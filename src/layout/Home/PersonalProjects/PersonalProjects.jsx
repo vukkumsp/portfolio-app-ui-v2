@@ -1,4 +1,4 @@
-import Project from '../../Components/Project/Project.jsx';
+import Project from '../../../Components/Project/Project.jsx';
 import './PersonalProjects.css';
 
 function PersonalProjects({ projects }) {
