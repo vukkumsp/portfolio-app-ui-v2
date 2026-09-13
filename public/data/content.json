@@ -60,7 +60,7 @@
             "value": "React",
             "iconFile": "react.png",
             "link": "https://reactjs.org/",
-            "present": true
+            "present": false
         },
         {
             "value": "ReactNative",
