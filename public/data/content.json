@@ -33,6 +33,12 @@
             "present": true
         },
         {
+            "value": "PostgreSQL",
+            "iconFile": "postgresql.png",
+            "link": "https://www.postgresql.org/",
+            "present": true
+        },
+        {
             "value": "Javascript",
             "iconFile": "javascript.png",
             "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
@@ -107,7 +113,7 @@
     ],
     "linkedInConfig" : {
       "href": "https://www.linkedin.com/in/vukkumsp/",
-      "icon": "./assets/icons/linkedin.svg",
+      "icon": "./assets/icons/linkedin.png",
       "disabled": false
     },
     "downloadResumeConfig" : {
@@ -117,7 +123,7 @@
     },
     "githubConfig" : {
         "href": "https://github.com/vukkumsp",
-        "icon": "./assets/icons/github.svg",
+        "icon": "./assets/icons/github.png",
         "disabled": false
     },
     "projects": [
@@ -234,7 +240,7 @@
                 },
                 {
                     "value": "ElectronJs",
-                    "iconFile": "electronjs.png",
+                    "iconFile": "electronjs-2.png",
                     "present": true
                 },
                 {
