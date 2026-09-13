@@ -6,14 +6,9 @@
     border-radius: 3px;
     margin: 0;
     padding: 6px 9px;
-    background-color: var(--skillcard);
+    background-color: var(--card-background);
     color: var(--text-primary);
 }
-
-/* .skill-card:hover{
-    background-color: var(--skillcard-hover);
-    color: var(--themedarker-btn);
-} */
 
 .skill-logo{
     height: 15px;

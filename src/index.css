@@ -13,8 +13,8 @@
   --themedark: #252a30;
   --themedarker-btn: #303840;
   --themelight: #ffffff;
-  --skillcard: #eef1f3;
-  --skillcard-hover: #dce1e6;
+  --button-background: #eef1f3;
+  --button-background-hover: #dce1e6;
 }
 
 body {
