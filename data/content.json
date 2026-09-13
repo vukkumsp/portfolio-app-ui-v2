@@ -104,6 +104,31 @@
     },
     "projects": [
         {
+            "title": "Enigma",
+            "imgUrl": "https://raw.githubusercontent.com/vukkumsp/laughing-enigma/refs/heads/main/screenshots/events-page-screenshot.png",
+            "skills": [
+                {
+                    "value": "Javascript",
+                    "iconFile": "javascript.png",
+                    "present": true
+                },
+                {
+                    "value": "Angular 21",
+                    "iconFile": "angular.png",
+                    "present": true
+                },
+                {
+                    "value": "Solidity",
+                    "iconFile": "solidity.png",
+                    "present": true
+                }
+            ],
+            "liveLink": "https://laughing-enigma-qwvs.onrender.com",
+            "disabled": false,
+            "githubLink": "https://github.com/vukkumsp/laughing-enigma",
+            "description": "It demonstrates how a Microservice Architecture can manage multiple real life like failure scenarios in an Event Booking Application."
+        },
+        {
             "title": "Polling Booth",
             "imgUrl": "https://raw.githubusercontent.com/vukkumsp/polling-booth/refs/heads/main/src/assets/screenshots/1.png",
             "skills": [
