@@ -15,7 +15,7 @@ function Project({
     };
     let githubConfig = {
         href: githubLink,
-        icon: './assets/icons/github.svg'
+        icon: './assets/icons/github.png'
     }
     return (
         <fieldset className='project-container'>

@@ -4,10 +4,8 @@ import './App.css';
 import Home from './layout/Home/Home.jsx';
 
 function App() {
-  return (
-    <Router>
-
-    
+  return (<>
+  <Router>
     <div className='background'>
       <div className='page-container'>
         <Routes>
@@ -21,6 +19,7 @@ function App() {
       </div>
     </div>
     </Router>
+  </>
   );
 }
 

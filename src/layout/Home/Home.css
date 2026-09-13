@@ -38,3 +38,11 @@
     background-color: var(--card-border);
     margin: 20px 0;
 }
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: var(--text-color);
+}

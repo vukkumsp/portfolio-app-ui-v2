@@ -126,6 +126,11 @@
         "icon": "./assets/icons/github.png",
         "disabled": false
     },
+    "instagramConfig" : {
+        "href": "https://www.instagram.com/vukkumsp/",
+        "icon": "./assets/icons/instagram.png",
+        "disabled": false
+    },
     "projects": [
         {
             "title": "Enigma",
@@ -234,7 +239,7 @@
             "imgUrl": "https://user-images.githubusercontent.com/9028439/190990778-a27803b5-31e9-45ab-bae5-69f1f8167155.png",
             "skills": [
                 {
-                    "value": "Angular 18",
+                    "value": "Angular 13",
                     "iconFile": "angular.png",
                     "present": true
                 },

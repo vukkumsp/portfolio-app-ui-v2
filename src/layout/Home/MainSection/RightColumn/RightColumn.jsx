@@ -10,17 +10,19 @@ function RightColumn({ content }) {
     return (
         <div className="right-column">
             <Heading />
+            <SkillCardsHolder skills={content.skills || []} />
+            <ProfessionalSummary summary={content.professionalSummary} />
             <div className='buttons-holder'>
-                <CustomButton value='Message me on LinkedIn' 
+                <CustomButton value='LinkedIn' 
                     type='link' config={content.linkedInConfig} />
                 <CustomButton value="Download CV" 
                     type='downloader' 
                     config={content.downloadResumeConfig}/>
                 <CustomButton value="Github"
                     type='link' config={content.githubConfig} />
+                <CustomButton value="Instagram"
+                    type='link' config={content.instagramConfig} />
             </div>
-            <SkillCardsHolder skills={content.skills || []} />
-            <ProfessionalSummary summary={content.professionalSummary} />
         </div>
     );
 }
