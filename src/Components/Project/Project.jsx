@@ -28,8 +28,10 @@ function Project({
             <p className='project-description'>{description}</p>
 
             <div className='project-buttons-container'>
-                <CustomButton value='Live' type='link' config={liveConfig} />
-                <CustomButton value='Github' type='link' config={githubConfig} />
+                {(liveConfig.disabled == 'false') && (
+                    <CustomButton value='Live' type='link' config={liveConfig} />
+                )}
+                <CustomButton value='Source Code' type='link' config={githubConfig} />
             </div>
         </fieldset>
     );
