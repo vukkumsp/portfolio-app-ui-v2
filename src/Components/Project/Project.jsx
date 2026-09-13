@@ -21,14 +21,14 @@ function Project({
         <fieldset className='project-container'>
             <legend className='project-title'>{title}</legend>
             <Zoom>
-                <img className='project-screenshot' src={imgUrl} />
+                <img className='project-screenshot' src={imgUrl} alt={title} />
             </Zoom>
 
             <SkillCardsHolder skills={skills} />
             <p className='project-description'>{description}</p>
 
             <div className='project-buttons-container'>
-                {(liveConfig.disabled == 'false') && (
+                {(liveConfig.disabled === 'false') && (
                     <CustomButton value='Live' type='link' config={liveConfig} />
                 )}
                 <CustomButton value='Source Code' type='link' config={githubConfig} />
