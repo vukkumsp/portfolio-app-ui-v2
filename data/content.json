@@ -101,5 +101,83 @@
         "href": "https://github.com/vukkumsp",
         "icon": "./assets/icons/github.svg",
         "disabled": false
-    }
+    },
+    "projects": [
+        {
+            "title": "Polling Booth",
+            "imgUrl": "https://raw.githubusercontent.com/vukkumsp/polling-booth/refs/heads/main/src/assets/screenshots/1.png",
+            "skills": [
+                {
+                    "value": "Javascript",
+                    "iconFile": "javascript.png",
+                    "present": true
+                },
+                {
+                    "value": "Angular 18",
+                    "iconFile": "angular.png",
+                    "present": true
+                },
+                {
+                    "value": "Solidity",
+                    "iconFile": "solidity.png",
+                    "present": true
+                }
+            ],
+            "liveLink": "https://vukkumsp.github.io/polling-booth/",
+            "disabled": false,
+            "githubLink": "https://github.com/vukkumsp/polling-booth",
+            "description": "Polling Booth is a decentralized voting application built on the Ethereum blockchain. It allows users to create and participate in polls securely and transparently. The application leverages smart contracts to ensure the integrity of the voting process, making it tamper-proof and verifiable."
+        },
+        {
+            "title": "Xpense Tracker",
+            "imgUrl": "https://raw.githubusercontent.com/vukkumsp/expenses-tracker/refs/heads/master/screenshots/237shots_so.png",
+            "skills": [
+                {   
+                    "value": "ReactNative",
+                    "iconFile": "reactnative.png",
+                    "present": true
+                },
+                {
+                    "value": "React",
+                    "iconFile": "react.png",
+                    "present": true
+                },
+                {
+                    "value": "Expo",
+                    "iconFile": "expo.png",
+                    "present": true
+                }
+            ],
+            "emoji": false,
+            "liveLink": "#",
+            "disabled": false,
+            "githubLink": "https://github.com/vukkumsp/expenses-tracker",
+            "description": "Xpense Tracker is a mobile application that helps users track their expenses and manage their finances effectively. It provides features such as expense categorization, budget tracking, and visual reports to give users insights into their spending habits. The app is built using React Native and Expo, ensuring a smooth and responsive user experience across both iOS and Android platforms."
+        },
+        {
+            "title": "Local Entertainment System",
+            "imgUrl": "https://user-images.githubusercontent.com/9028439/190990778-a27803b5-31e9-45ab-bae5-69f1f8167155.png",
+            "skills": [
+                {
+                    "value": "Angular 18",
+                    "iconFile": "angular.png",
+                    "present": true
+                },
+                {
+                    "value": "ElectronJs",
+                    "iconFile": "electronjs.png",
+                    "present": true
+                },
+                {
+                    "value": "NodeJs",
+                    "iconFile": "nodejs.png",
+                    "present": true
+                }
+            ],
+            "liveLink": "#",
+            "disabled": false,
+            "githubLink": "https://github.com/vukkumsp/local-entertainment-system",
+            "description": "Local Entertainment System is a desktop application that provides users with a local media management and playback solution. Built using ElectronJs and Angular, the application allows users to organize their media files, create playlists, and enjoy seamless playback of audio and video content. It offers an intuitive user interface and offline functionality, making it a convenient choice for managing entertainment locally."
+        }
+    ]
 }
