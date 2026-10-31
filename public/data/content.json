@@ -93,6 +93,12 @@
             "present": true
         },
         {
+            "value": "Kubernetes",
+            "iconFile": "kubernetes.png",
+            "link": "https://kubernetes.io/",
+            "present": true
+        },
+        {
             "value": "AWS",
             "iconFile": "aws.png",
             "link": "https://aws.amazon.com/",
@@ -169,6 +175,12 @@
                     "value": "Docker",
                     "iconFile": "docker.png",
                     "link": "https://www.docker.com/",
+                    "present": true
+                },
+                {
+                    "value": "Kubernetes",
+                    "iconFile": "kubernetes.png",
+                    "link": "https://kubernetes.io/",
                     "present": true
                 }
             ],
