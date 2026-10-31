@@ -139,7 +139,7 @@
                 {
                     "value": "Angular 21",
                     "iconFile": "angular.png",
-                    "present": true
+                    "present": false
                 },
                 {
                     "value": "Java 21",
@@ -172,7 +172,7 @@
                     "present": true
                 }
             ],
-            "liveLink": "https://laughing-enigma-qwvs.onrender.com",
+            "liveLink": "#",
             "disabled": false,
             "githubLink": "https://github.com/vukkumsp/laughing-enigma",
             "description": "It demonstrates how a Microservice Architecture can manage multiple real life like failure scenarios in an Event Booking Application."
