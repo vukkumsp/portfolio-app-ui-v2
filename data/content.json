@@ -42,19 +42,19 @@
             "value": "Javascript",
             "iconFile": "javascript.png",
             "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-            "present": true
+            "present": false
         },
         {
             "value": "Typescript",
             "iconFile": "typescript.png",
             "link": "https://www.typescriptlang.org/",
-            "present": true
+            "present": false
         },
         {
             "value": "Angular 21",
             "iconFile": "angular.png",
             "link": "https://angular.io/",
-            "present": true
+            "present": false
         },
         {
             "value": "React",
@@ -129,7 +129,7 @@
     "instagramConfig" : {
         "href": "https://www.instagram.com/vukkumsp/",
         "icon": "./assets/icons/instagram.png",
-        "disabled": false
+        "disabled": true
     },
     "projects": [
         {
