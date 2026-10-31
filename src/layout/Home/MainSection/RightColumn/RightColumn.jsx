@@ -20,8 +20,8 @@ function RightColumn({ content }) {
                     config={content.downloadResumeConfig}/>
                 <CustomButton value="Github"
                     type='link' config={content.githubConfig} />
-                <CustomButton value="Instagram"
-                    type='link' config={content.instagramConfig} />
+                {/* <CustomButton value="Instagram"
+                    type='link' config={content.instagramConfig} /> */}
             </div>
         </div>
     );
